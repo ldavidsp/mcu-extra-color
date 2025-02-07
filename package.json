@@ -1,7 +1,7 @@
 {
   "name": "mcu-extra-color",
   "type": "module",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Additional packages to add new features and bug fixes to Material Color Utilities.",
   "license": "Apache-2.0",
   "repository": "github:ldavidsp/mcu-extra-color",
