@@ -1,7 +1,7 @@
 {
   "name": "mcu-extra-color",
   "type": "module",
-  "version": "0.1.6",
+  "version": "0.1.5",
   "description": "Additional packages to add new features and bug fixes to Material Color Utilities.",
   "license": "Apache-2.0",
   "repository": "github:ldavidsp/mcu-extra-color",
@@ -45,24 +45,24 @@
     "release": "pnpm build && pnpm publish --no-git-checks --access public"
   },
   "peerDependencies": {
-    "@material/material-color-utilities": "^0.3.0"
+    "@material/material-color-utilities": "^0.2.7"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
-    "@changesets/cli": "^2.27.12",
+    "@changesets/cli": "^2.27.1",
     "@importantimport/eslint-config": "^0.2.0",
     "@importantimport/eslint-config-ts": "^0.2.0",
-    "@importantimport/tsconfig": "^0.1.1",
-    "@material/material-color-utilities": "^0.3.0",
-    "@microsoft/api-documenter": "^7.26.7",
-    "@microsoft/api-extractor": "^7.49.2",
-    "@types/node": "^22.13.1",
+    "@importantimport/tsconfig": "^0.0.1",
+    "@material/material-color-utilities": "^0.2.7",
+    "@microsoft/api-documenter": "^7.23.13",
+    "@microsoft/api-extractor": "^7.38.4",
+    "@types/node": "^20.10.3",
     "@vitest/coverage-c8": "^0.33.0",
-    "eslint": "^9.20.0",
+    "eslint": "^8.55.0",
     "npm-run-all": "^4.1.5",
-    "vite": "^6.1.0",
-    "vite-plugin-dts": "^4.5.0",
-    "vitepress": "1.6.3",
-    "vitest": "^3.0.5"
+    "vite": "^5.0.6",
+    "vite-plugin-dts": "^3.6.4",
+    "vitepress": "1.0.0-rc.31",
+    "vitest": "^1.0.1"
   }
 }
