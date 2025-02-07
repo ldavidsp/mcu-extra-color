@@ -13,7 +13,7 @@ const setSchemeProperties = (
   for (const [key, value] of Object.entries(scheme)) {
     const token = key.replaceAll(/([a-z])([A-Z])/g, '$1-$2').toLowerCase()
     const color = colorFormat === 'rgb' ? Object.values(rgbaFromArgb(value)).slice(0, -1).join(' ') : hexFromArgb(value)
-    target.style.setProperty(`--md-sys-color-${token}${suffix}`, color)
+    target.style.setProperty(`--color-${token}${suffix}`, color)
   }
 }
 
