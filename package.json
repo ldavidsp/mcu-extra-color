@@ -1,5 +1,5 @@
 {
-  "name": "mcu-extra",
+  "name": "mcu-extra-color",
   "type": "module",
   "version": "0.1.2",
   "description": "Additional packages to add new features and bug fixes to Material Color Utilities.",
